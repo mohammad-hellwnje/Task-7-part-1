@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <div class="first-section">
+        <div class="container">
+            <div class="max-min">
+                <h2>Enter Three Number</h2>
+                <div class="input"><input type="number" placeholder="First Number" id="frist-number"></div>
+                <div class="input"> <input type="number" placeholder="second Number" id="second-number"></div>
+                <div class="input"><input type="number" placeholder="Third Number" id="third-number"></div>
+                <button id="btn-result" class="btn-result" onclick="maxminNumber()">Result</button>
+                <h3 >The Max Number Is : <span id="maxnumber"></span></h3>
+                <h3 >The Min Number Is : <span id="minnumber"></span> </h3>
+            </div>
+        </div>
+    </div>
+     <div class="second-section">
+        <div class="container">
+            <h2>Enter Character To Test</h2>
+            <input type="text" maxlength="1" placeholder="Character" id="inputcharacter">
+            <button onclick="testCharacter()" >Test</button>
+            <p id="Test"></p>
+        </div>
+     </div>
+     <div class="third-section">
+        <div class="container">
+            <h2>Enter A Number</h2>
+            <input type="number" placeholder="Enter A Number" id="numberinput">
+            <button onclick="Multiplication ()" >Result</button>
+            <p id="multiRes"></p>
+        </div>
+     </div>
+     <div class="section-four">
+        <div class="container">
+            <h2>Enter A Number</h2>
+            <input type="number" placeholder="Enter Number" id="even-input">
+            <button onclick="evenNumbers()"> Even Numbers</button>
+            <p id="even"></p>
+        </div>
+     </div>
+     <div class="section-five">
+        <div class="container">
+            <h2>Enter Marks Of Five Subjects</h2>
+            <input type="number" id="sub1" placeholder="subject 1">
+            <input type="number" id="sub2" placeholder="subject 2">
+            <input type="number" id="sub3" placeholder="subject 3">
+            <input type="number" id="sub4" placeholder="subject 4">
+            <input type="number" id="sub5" placeholder="subject 5">
+            <button onclick="Marks ()">Result</button>
+            <div class="div1">
+                <p>Total Marks = <span id="total"></span> </p>
+                <p>Average Marks = <span id="average"></span> </p>
+                <p>Percentage = <span id="Percentage" ></span></p>
+            </div>
+        </div>     
+     </div>
+     <div class="section-six">
+        <div class="container">
+            <h2>Enter Marks Of Five Subjects</h2>
+            <input type="number" placeholder ="Mark of Physics" id="physics">
+            <input type="number" placeholder ="Mark of Chemistry" id="chemistry">
+            <input type="number" placeholder ="Mark of Biology" id="biology">
+            <input type="number" placeholder ="Mark of Mathematics" id="mathematics">
+            <input type="number" placeholder ="Mark of Computer" id="computer">
+            <button onclick=" percentageGrade ()">Result</button>
+            <p>The Percentage Is :<span id="perc"></span></p>
+            <p>and The Grade is : <span id="Grade"></span></p>
+        </div>
+     </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
